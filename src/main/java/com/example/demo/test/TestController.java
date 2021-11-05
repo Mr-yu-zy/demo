@@ -10,4 +10,9 @@ public class TestController {
     public String helloWorld(){
         return "hello world";
     }
+
+    @RequestMapping(value = "/git")
+    public String gitHelloWorld(){
+        return "git hello world";
+    }
 }
