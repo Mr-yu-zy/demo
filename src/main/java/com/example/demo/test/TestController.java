@@ -13,6 +13,6 @@ public class TestController {
 
     @RequestMapping(value = "/git")
     public String gitHelloWorld(){
-        return "git hello world";
+        return "Git Hello World";
     }
 }
